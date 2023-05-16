@@ -37,8 +37,7 @@ body {
 }
 .about-left p {
   text-align: start;
-  margin: 0 auto;
-  padding: 0 1.5rem;
+  margin: 0 2.2rem;
   font-size: 1.125rem;
 }
 .contact-left a {
@@ -51,6 +50,7 @@ body {
   margin: 0 1.5rem;
 }
 .content-left {
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
