@@ -71,8 +71,15 @@ body {
 }
 
 .header-right,
-.hard-skills-title {
+.hard-skills-title,
+.title {
+  font-size: 0.8rem;
   padding: 0 2rem;
+  display: flex;
+  justify-content: space-around;
+  color: var(--text-color);
+}
+.header-right a {
   color: var(--text-color);
   text-decoration: underline;
 }
@@ -82,12 +89,16 @@ body {
   flex-wrap: wrap;
 }
 
+.card-project a {
+  text-decoration: none;
+  display: flex;
+  color: var(--text-color);
+}
 .card-project {
   display: flex;
   width: 90vw;
   justify-content: center;
   align-items: start;
-
   margin: 1rem;
   background: linear-gradient(
     116.19deg,
@@ -119,16 +130,17 @@ body {
   color: var(--text-color);
   font-weight: 400;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .skills-card {
   display: flex;
-  width: 30vw;
+  width: 140px;
   height: 4vh;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
   padding: 0.4rem;
+  gap: 0.3rem;
   margin: 1rem;
   background: linear-gradient(
     116.19deg,
@@ -143,4 +155,14 @@ body {
 }
 .skills-card p {
   font-size: 0.875rem;
+}
+
+.inputs {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
 }

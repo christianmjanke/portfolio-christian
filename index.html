@@ -35,10 +35,10 @@
           </p>
           <!-- div redes -->
           <div class="contact-left">
-            <a href="https://github.com/christiand3v">
+            <a target="_blank" href="https://github.com/christiand3v">
               <img src="./images/github.svg" alt="icone do github branco" />
             </a>
-            <a href="https://www.linkedin.com/in/christiand3v/">
+            <a target="_blank" href="https://www.linkedin.com/in/christiand3v/">
               <img src="./images/linkedin.svg" alt="icone do linkedin branco" />
             </a>
           </div>
@@ -48,36 +48,55 @@
       <!-- section right -->
       <section>
         <!-- header left -->
-        <header class="header-right">
+        <header class="header-right" class="title">
           <h2>Projects</h2>
+          <h2>
+            <a
+              target="_blank"
+              href="https://github.com/christiand3v?tab=repositories"
+            >
+              More projects
+            </a>
+          </h2>
         </header>
         <!-- content right -->
         <article class="projects">
           <!-- card projects 1 -->
           <div class="card-project">
-            <div>
-              <img src="./images/pproject.svg" alt="" />
-            </div>
-            <div>
-              <h3>Project 1</h3>
-              <p>
-                Url Shortener microservice made in Node.JS Note: the generated
-                links are...
-              </p>
-            </div>
+            <a
+              target="_blank"
+              href="https://github.com/christiand3v?tab=repositories"
+            >
+              <div>
+                <img src="./images/pproject.svg" alt="" />
+              </div>
+              <div>
+                <h3>Project 1</h3>
+                <p>
+                  Url Shortener microservice made in Node.JS Note: the generated
+                  links are...
+                </p>
+              </div>
+            </a>
           </div>
+
           <!-- card projects 2 -->
           <div class="card-project">
-            <div>
-              <img src="./images/pproject.svg" alt="" />
-            </div>
-            <div>
-              <h3>Project 1</h3>
-              <p>
-                Get random quotes from diferent sources, made with HTML, CSS
-                (Bootstrap)...
-              </p>
-            </div>
+            <a
+              target="_blank"
+              href="https://github.com/christiand3v?tab=repositories"
+            >
+              <div>
+                <img src="./images/pproject.svg" alt="" />
+              </div>
+              <div>
+                <h3>Project 1</h3>
+                <p>
+                  Url Shortener microservice made in Node.JS Note: the generated
+                  links are...
+                </p>
+              </div>
+            </a>
           </div>
         </article>
         <!-- content hard skills -->
@@ -88,16 +107,39 @@
             </div>
             <div class="skills">
               <div class="skills-card">
-                <img src="./images/html.svg" alt="" />
+                <img src="./images/html.png" alt="" />
                 <p>HTML-5</p>
               </div>
               <div class="skills-card">
-                <img src="./images/css.svg" alt="" />
+                <img src="./images/css.png" alt="" />
                 <p>CSS-3</p>
+              </div>
+              <div class="skills-card">
+                <img src="./images/javascript.png" alt="" />
+                <p>javascript</p>
+              </div>
+              <div class="skills-card">
+                <img src="./images/react.png" alt="" />
+                <p>React JS</p>
               </div>
             </div>
           </div>
         </article>
+        <section class="content-contacts">
+          <header class="title">
+            <h2>Contact me</h2>
+          </header>
+          <article>
+            <div class="inputs">
+              <label for="text">Name:</label>
+              <input type="text" />
+              <label for="email">Email:</label>
+              <input type="email" />
+              <label for="text">Text:</label>
+              <input type="text" placeholder="Enter your text" />
+            </div>
+          </article>
+        </section>
       </section>
     </main>
   </body>
