@@ -69,3 +69,78 @@ body {
   backdrop-filter: blur(7.5px);
   border-radius: 1rem;
 }
+
+.header-right,
+.hard-skills-title {
+  padding: 0 2rem;
+  color: var(--text-color);
+  text-decoration: underline;
+}
+.projects {
+  display: flex;
+  color: var(--text-color);
+  flex-wrap: wrap;
+}
+
+.card-project {
+  display: flex;
+  width: 90vw;
+  justify-content: center;
+  align-items: start;
+
+  margin: 1rem;
+  background: linear-gradient(
+    116.19deg,
+    rgba(32, 47, 125, 0.48) 0.56%,
+    rgba(180, 188, 231, 0.12) 99.66%
+  );
+  backdrop-filter: blur(7.5px);
+  border-radius: 1rem;
+}
+
+.card-project img {
+  width: 70px;
+  padding: 1rem 0 0 1rem;
+}
+
+.card-project h3 {
+  text-align: start;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+.card-project p {
+  width: 90%;
+  text-align: start;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+
+.skills {
+  color: var(--text-color);
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+}
+.skills-card {
+  display: flex;
+  width: 30vw;
+  height: 4vh;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem;
+  margin: 1rem;
+  background: linear-gradient(
+    116.19deg,
+    rgba(32, 47, 125, 0.48) 0.56%,
+    rgba(180, 188, 231, 0.12) 99.66%
+  );
+  backdrop-filter: blur(7.5px);
+  border-radius: 1rem;
+}
+.skills-card img {
+  width: 30px;
+}
+.skills-card p {
+  font-size: 0.875rem;
+}
