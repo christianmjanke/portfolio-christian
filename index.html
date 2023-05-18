@@ -4,16 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" s />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css">
     <title>Christian Medeiros</title>
   </head>
 
   <body>
     
     <main>
-      <div class="texto-em-construcao">
+      <!-- <div class="texto-em-construcao">
         <span>Em Construção...</span>
-      </div>
+      </div> -->
       <!-- section left -->
       <section class="content-left">
         <!-- header left -->
@@ -24,7 +25,6 @@
               alt="foto de perfil do christian medeiros"
             />
           </div>
-
           <h2>Christian Medeiros</h2>
           <p>Software Enginner</p>
           <div class="separador"></div>
@@ -48,7 +48,7 @@
         </article>
       </section>
       <!-- section right -->
-      <section>
+      <section class="container-right">
         <!-- header left -->
         <header class="header-right" class="title">
           <h2>Projects</h2>
@@ -98,10 +98,50 @@
               </div>
             </a>
           </div>
+
+            <!-- card projects 1 -->
+            <div class="card-project">
+              <a
+                target="_blank"
+                href="https://github.com/christiand3v?tab=repositories"
+              >
+                <div>
+                  <img src="./images/project-management.png" alt="" />
+                </div>
+                <div>
+                  <h3>Project 1</h3>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </a>
+            </div>
+  
+            <!-- card projects 2 -->
+            <div class="card-project">
+              <a
+                target="_blank"
+                href="https://github.com/christiand3v?tab=repositories"
+              >
+                <div>
+                  <img src="./images/project-management.png" alt="" />
+                </div>
+                <div>
+                  <h3>Project 2</h3>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                </div>
+              </a>
+            </div>
+            
+            
         </article>
         <!-- content hard skills -->
-        <article class="content-hard-skills">
-          <div>
+        <section class="todos">
+
+          <article class="content-hard-skills">
+            <div>
             <div class="hard-skills-title">
               <h2>Hard skills</h2>
             </div>
@@ -122,6 +162,24 @@
                 <img src="./images/react.png" alt="" />
                 <p>React JS</p>
               </div>
+
+              <div class="skills-card">
+                <img src="./images/html.png" alt="" />
+                <p>HTML-5</p>
+              </div>
+              <div class="skills-card">
+                <img src="./images/css.png" alt="" />
+                <p>CSS-3</p>
+              </div>
+              <div class="skills-card">
+                <img src="./images/javascript.png" alt="" />
+                <p>javascript</p>
+              </div>
+              <div class="skills-card">
+                <img src="./images/react.png" alt="" />
+                <p>React JS</p>
+              </div>
+
             </div>
           </div>
         </article>
@@ -136,8 +194,8 @@
               <input type="text" id="name" name="name" required>
                 <label for="email">Email :</label>
                     <input type="email" name="email" required>
-                <label for="text">Text :</label>
-                <textarea name="text" id="text" id="text"></textarea>
+                    <label for="text">Text :</label>
+                    <textarea name="text" id="text" id="text"></textarea>
                 <input type="hidden" name="_next" value="https://christiand3v.vercel.app/thanks.html">
                 <input type="hidden" name="_captcha" value="false">
                 <button type="submit">Send</button>
@@ -145,9 +203,10 @@
             </div>
           </article>
         </section>
+        </section>
       </section>
     </main>
-<script>// Verifica a largura da janela do navegador
+<!-- <script>// Verifica a largura da janela do navegador
   var larguraJanela = window.innerWidth;
   
   // Verifica se a largura é maior que 600 pixels
@@ -164,6 +223,6 @@
     document.body.innerHTML = '';
     document.body.appendChild(aviso);
   }
-  </script>
+  </script> -->
   </body>
 </html>
