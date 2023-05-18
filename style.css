@@ -86,6 +86,7 @@ body {
 .projects {
   display: flex;
   color: var(--text-color);
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -165,4 +166,57 @@ body {
   align-items: center;
   width: 200px;
   margin: 0 auto;
+}
+
+.inputs label {
+  font-weight: 500;
+}
+
+.inputs input[type="text"],
+input[type="email"] {
+  background: linear-gradient(
+    116.19deg,
+    rgba(9, 39, 187, 0.48) 0.56%,
+    rgba(180, 188, 231, 0.12) 99.66%
+  );
+  backdrop-filter: blur(7.5px);
+  border: none;
+  border-radius: 0.5rem;
+  width: 15rem;
+  color: rgba(255, 255, 255, 0.945);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5rem;
+  height: 1.5rem;
+}
+textarea {
+  background: linear-gradient(
+    116.19deg,
+    rgba(9, 39, 187, 0.48) 0.56%,
+    rgba(180, 188, 231, 0.12) 99.66%
+  );
+  backdrop-filter: blur(7.5px);
+  border: none;
+  border-radius: 0.5rem;
+  color: rgba(255, 255, 255, 0.945);
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5rem;
+
+  width: 15rem;
+  height: 5rem;
+}
+.inputs button {
+  background: linear-gradient(
+    116.19deg,
+    rgba(9, 39, 187, 0.48) 0.56%,
+    rgba(180, 188, 231, 0.12) 99.66%
+  );
+  border: none;
+  margin: 1rem 0;
+  width: 16rem;
+  height: 2rem;
+  color: var(--text-color);
+  font-size: 1rem;
+  border-radius: 0.5rem;
 }

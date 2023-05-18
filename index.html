@@ -131,16 +131,39 @@
           </header>
           <article>
             <div class="inputs">
-              <label for="text">Name:</label>
-              <input type="text" />
-              <label for="email">Email:</label>
-              <input type="email" />
-              <label for="text">Text:</label>
-              <input type="text" placeholder="Enter your text" />
+              <form action="https://formsubmit.co/christiand3v@gmail.com" method="POST" class="form-contact" />
+              <label for="name">Name :</label>
+              <input type="text" id="name" name="name" required>
+                <label for="email">Email :</label>
+                    <input type="email" name="email" required>
+                <label for="text">Text :</label>
+                <textarea name="text" id="text" id="text"></textarea>
+                <input type="hidden" name="_next" value="http://https://christiand3v.vercel.app//thanks.html">
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit">Send</button>
+              </form>
             </div>
           </article>
         </section>
       </section>
     </main>
+<script>// Verifica a largura da janela do navegador
+  var larguraJanela = window.innerWidth;
+  
+  // Verifica se a largura é maior que 600 pixels
+  if (larguraJanela > 770) {
+    // Renderiza o texto de aviso em vez do layout
+    var aviso = document.createElement('h2');
+    aviso.style.color = 'white';
+    aviso.style.textAlign = 'center';
+    aviso.style.display = 'flex'
+    aviso.style.justifyContent = 'center'
+    aviso.style.alignItems = 'center'
+    aviso.style.height = '100vh'
+    aviso.textContent = 'Por favor, visualize este site em um dispositivo móvel e recarregue a página...';
+    document.body.innerHTML = '';
+    document.body.appendChild(aviso);
+  }
+  </script>
   </body>
 </html>
