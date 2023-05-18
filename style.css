@@ -13,7 +13,23 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.texto-em-construcao {
+  color: var(--text-color);
+  width: 100%;
+  margin: 1rem 0;
+  font-weight: bold;
+  text-align: center;
+  animation: slide 4s linear infinite;
+}
 
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(80%);
+  }
+}
 .picture img {
   width: 15rem;
   border-radius: 50%;
@@ -37,7 +53,8 @@ body {
 }
 .about-left p {
   text-align: start;
-  margin: 0 2.2rem;
+  margin: 0 1.5rem;
+  
   font-size: 1.125rem;
 }
 .contact-left a {
