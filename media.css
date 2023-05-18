@@ -5,34 +5,34 @@
     justify-content: space-between;
   }
   .picture img {
-    margin-top: 2rem;
-    width: 10rem;
+    margin-top: 2vw;
+    width: 13vw;
   }
   .header-left h2 {
-    font-size: 1.2rem;
-    margin: 1rem 0 0 0;
+    font-size: 1.5vw;
+    margin: 1vw 0 0 0;
   }
   .about-left h2 {
-    font-size: 1.1rem;
+    font-size: 1.3vw;
   }
   .about-left p {
-    font-size: 1rem;
+    font-size: 1vw;
   }
   .contact-left a img {
-    width: 2rem;
+    width: 2.2vw;
   }
   .content-left {
-    max-width: 16rem;
+    max-width: 19vw;
   }
   /* right */
   .container-right {
-    width: 100vw;
+    width: 200vw;
   }
 
   .todos {
-    max-width: 75vw;
+    justify-content: start;
     display: flex;
-    gap: 6.5rem;
+    gap: 6.5vw;
   }
   .skills {
     display: flex;
@@ -41,13 +41,12 @@
     flex-wrap: wrap;
   }
   .projects {
-    gap: 0 2rem;
     justify-content: space-evenly;
   }
 
   .card-project,
   .projects a {
-    max-width: 25vw;
+    max-width: 27vw;
   }
   .header-right {
     display: flex;
@@ -61,5 +60,42 @@
   }
   .card-project a {
     width: 80vw;
+  }
+  .hard-skills-title {
+    font-size: 1vw;
+  }
+  .skills {
+    gap: 0 2vw;
+  }
+  .skills-card {
+    width: 10vw;
+    gap: 1vw;
+    padding: 0.5rem;
+  }
+  .content-contacts {
+    width: 19.8vw;
+    padding: 0;
+    margin: 0;
+    height: 52vh;
+  }
+
+  .title {
+    font-size: 1vw;
+  }
+  .inputs input[type="text"],
+  input[type="email"] {
+    height: 1.5vw;
+    width: 22rem;
+  }
+  textarea{
+    width: 22rem;
+  }
+
+  .inputs button {
+    width: 23.2rem;
+    height: 2.5em;
+    color: var(--text-color);
+    font-size: 1.2vw;
+    border-radius: 0.5rem;
   }
 }
