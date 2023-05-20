@@ -1,8 +1,10 @@
 @media (min-width: 770px) {
+  body,
   main {
     height: 100vh;
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .picture img {
     margin-top: 2vw;
@@ -26,20 +28,10 @@
   }
   /* right */
   .container-right {
-    width: 200vw;
+    height: 98vh;
+    overflow: hidden;
   }
 
-  .todos {
-    justify-content: start;
-    display: flex;
-    gap: 6.5vw;
-  }
-  .skills {
-    display: flex;
-    flex-direction: row;
-    max-width: 40vw;
-    flex-wrap: wrap;
-  }
   .projects {
     justify-content: space-evenly;
   }
@@ -64,16 +56,29 @@
   .hard-skills-title {
     font-size: 1vw;
   }
-  .skills {
-    gap: 0 2vw;
+  .content-hard-skills {
+    display: flex;
+    padding: 0;
   }
+
+  .todos {
+    display: flex;
+    gap: 13vw}
+  .skills {
+    display: flex;
+    max-width: 30rem;
+    align-content: space-around;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
   .skills-card {
     width: 10vw;
+    display: flex;
     gap: 1vw;
-    padding: 0.5rem;
   }
+
   .content-contacts {
-    width: 19.8vw;
     padding: 0;
     margin: 0;
     height: 52vh;
@@ -85,10 +90,10 @@
   .inputs input[type="text"],
   input[type="email"] {
     height: 1.5vw;
-    width: 22rem;
+    width: 53vh;
   }
-  textarea{
-    width: 22rem;
+  textarea {
+    width: 53vh;
   }
 
   .inputs button {

@@ -4,12 +4,13 @@
   --color-separador: #d9d9d980;
 }
 
-body {
+body,
+main {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
   background-image: url("./images/background.svg");
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 .texto-em-construcao {
   color: var(--text-color);
@@ -31,7 +32,6 @@ body {
 .picture img {
   width: 15rem;
   border-radius: 50%;
-  margin: 1rem;
 }
 .header-left {
   color: var(--text-color);
@@ -211,7 +211,7 @@ input[type="email"] {
   backdrop-filter: blur(7.5px);
   border: none;
   border-radius: 0.5rem;
-  width: 15rem;
+  width: 80vw;
   color: rgba(255, 255, 255, 0.945);
   font-weight: 700;
   font-size: 1rem;
@@ -232,7 +232,7 @@ textarea {
   font-size: 1rem;
   padding: 0.5rem;
 
-  width: 15rem;
+  width: 80vw;
   height: 5rem;
 }
 .inputs button {
@@ -243,8 +243,8 @@ textarea {
   );
   border: none;
   margin: 1rem 0;
-  width: 16rem;
-  height: 2rem;
+  width: 84vw;
+  height: 2.5rem;
   color: var(--text-color);
   font-size: 1rem;
   border-radius: 0.5rem;
