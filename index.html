@@ -27,7 +27,7 @@
         <div class="separador"></div>
       </header>
       <!-- conteudo left -->
-      <article class="about-left">
+      <div class="about-left">
         <h2>About me</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, at voluptatum quis maiores aspernatur quod
@@ -43,7 +43,7 @@
           </a>
         </div>
         <div class="buttons"></div>
-      </article>
+      </div>
     </section>
 
 
@@ -59,7 +59,7 @@
         </h2>
       </header>
       <!-- content right -->
-      <article class="projects">
+      <div class="projects">
         <!-- card projects 1 -->
         <div class="card-project">
           <a target="_blank" href="https://github.com/christianmjanke?tab=repositories">
@@ -88,75 +88,124 @@
               </p>
             </div>
           </a>
+        </div <!-- card projects 1 -->
+        <div class="card-project">
+          <a target="_blank" href="https://github.com/christianmjanke?tab=repositories">
+            <div>
+              <img src="./images/project-management.png" alt="" />
+            </div>
+            <div>
+              <h3>Project 1</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </a>
         </div>
 
-       
-
-      </article>
-      <!-- content hard skills -->
-      <section class="todos">
-        <article class="content-hard-skills">
-          <div>
-            <div class="hard-skills-title">
-              <h2>Hard skills</h2>
+        <!-- card projects 2 -->
+        <div class="card-project">
+          <a target="_blank" href="https://github.com/christianmjanke?tab=repositories">
+            <div>
+              <img src="./images/project-management.png" alt="" />
             </div>
+            <div>
+              <h3>Project 2</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </a>
+        </div </div>
+
+
+
+        <!-- content hard skills -->
+        <section class="container-skills-and-contact">
+
+          <div class="container-skills">
             <div class="skills">
-              <div class="skills-card">
-                <img src="./images/html.png" alt="" />
-                <p>HTML-5</p>
+              <div class="hard-skills-title">
+                <h2>Hard skills</h2>
               </div>
-              <div class="skills-card">
-                <img src="./images/css.png" alt="" />
-                <p>CSS-3</p>
-              </div>
-              <div class="skills-card">
-                <img src="./images/javascript.png" alt="" />
-                <p>javascript</p>
-              </div>
-              <div class="skills-card">
-                <img src="./images/react.png" alt="" />
-                <p>React JS</p>
-              </div>
+              <div class="skills">
+                <div class="skills-card">
+                  <img src="./images/html.png" alt="" />
+                  <p class="text-hard">HTML-5</p>
+                </div>
+                <div class="skills-card">
+                  <img src="./images/css.png" alt="" />
+                  <p class="text-hard">CSS-3</p>
+                </div>
+                <div class="skills-card">
+                  <img src="./images/javascript.png" alt="" />
+                  <p class="text-hard">javascript</p>
+                </div>
+                <div class="skills-card">
+                  <img src="./images/react.png" alt="" />
+                  <p class="text-hard">React JS</p>
+                </div>
 
-              <div class="skills-card">
-                <img src="./images/html.png" alt="" />
-                <p>HTML-5</p>
+                <div class="skills-card">
+                  <img src="./images/html.png" alt="" />
+                  <p class="text-hard">HTML-5</p>
+                </div>
+                <div class="skills-card">
+                  <img src="./images/css.png" alt="" />
+                  <p class="text-hard">CSS-3</p>
+                </div>
+                
+                <div class="skills-card">
+                  <img src="./images/html.png" alt="" />
+                  <p class="text-hard">HTML-5</p>
+                </div>
+                <div class="skills-card">
+                  <img src="./images/css.png" alt="" />
+                  <p class="text-hard">CSS-3</p>
+                </div>
+                
+                
               </div>
-              <div class="skills-card">
-                <img src="./images/css.png" alt="" />
-                <p>CSS-3</p>
-              </div>
-             
-
             </div>
           </div>
-        </article>
-        <section class="content-contacts">
-          <header class="title">
-            <h2>Contact me</h2>
-          </header>
-          <article>
-            <div class="inputs">
-              <form action="https://formsubmit.co/christianmjanke@gmail.com" method="POST" class="form-contact" />
 
-              <label for="name">Name :</label>
-              <input type="text" id="name" name="name" required>
-              
-              <label for="email">Email :</label>
-              <input type="email" name="email" required>
-              
-              <label for="text">Text :</label>
-              <textarea name="text" id="text" id="text" class="textarea-styles"></textarea>
-              
-              <input type="hidden" name="_next" value="https://christiand3v.vercel.app/thanks.html">
-              <input type="hidden" name="_captcha" value="false">
-              
-              <button type="submit">Send</button>
-              </form>
+          <div class="container-contact">
+            <div class="contact">
+              <div>
+                <header class="title">
+                  <h2>Contact me</h2>
+                </header>
+                <div>
+                  <div class="contact-width">
+                    <div class="inputs">
+                      <form action="https://formsubmit.co/christianmjanke@gmail.com" method="POST"
+                        class="form-contact" />
+
+                      <label for="name">Name :</label>
+                      <input type="text" id="name" name="name" required>
+
+                      <label for="email">Email :</label>
+                      <input type="email" name="email" required>
+
+                      <label for="text">Text :</label>
+                      <textarea name="text" id="text" id="text" class="textarea-styles"></textarea>
+
+                      <input type="hidden" name="_next" value="https://christiand3v.vercel.app/thanks.html">
+                      <input type="hidden" name="_captcha" value="false">
+
+                      <button type="submit">Send</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </article>
+          </div>
         </section>
-      </section>
+
+    </section>
+
+
     </section>
   </main>
 </body>

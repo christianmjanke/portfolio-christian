@@ -27,10 +27,6 @@
     max-width: 19vw;
   }
   /* right */
-  .container-right {
-    height: 98vh;
-    overflow: hidden;
-  }
 
   .projects {
     justify-content: space-evenly;
@@ -42,8 +38,6 @@
   }
   .header-right {
     display: flex;
-    justify-content: space-between;
-    padding: 0 1rem;
   }
   .card-project {
     display: block;
@@ -56,32 +50,22 @@
   .hard-skills-title {
     font-size: 1vw;
   }
-  .content-hard-skills {
+
+  .container-skills-and-contact {
     display: flex;
-    padding: 0;
+    text-align: start;
+    line-height: 2;
+    justify-content: space-evenly;
   }
 
-  .todos {
-    display: flex;
-    gap: 13vw}
-  .skills {
-    display: flex;
-    max-width: 30rem;
-    align-content: space-around;
-    flex-direction: row;
-    justify-content: flex-start;
+  .container-skills {
+    width: 40%;
+    height: 80%;
   }
 
-  .skills-card {
-    width: 10vw;
-    display: flex;
-    gap: 1vw;
-  }
-
-  .content-contacts {
-    padding: 0;
-    margin: 0;
-    height: 52vh;
+  .container-contact {
+    width: 40%;
+    height: 80%;
   }
 
   .title {
@@ -90,17 +74,33 @@
   .inputs input[type="text"],
   input[type="email"] {
     height: 1.5vw;
-    width: 53vh;
+    width: 50vh;
+
+    display: flex;
   }
   textarea {
-    width: 53vh;
+    width: 50vh;
+    height: 8vh;
+    display: flex;
   }
 
   .inputs button {
-    width: 23.2rem;
+    width: 52vh;
+
     height: 2.5em;
     color: var(--text-color);
     font-size: 1.2vw;
     border-radius: 0.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .skills-card {
+    height: 2rem;
+    gap: 0;
+    width: 7.2rem;
+  }
+  .text-hard p{
+    font-size: 0px;
   }
 }
