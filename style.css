@@ -14,6 +14,7 @@ main {
   background-size: cover;
 }
 
+
 .texto-em-construcao {
   color: var(--text-color);
   width: 100%;
@@ -118,7 +119,7 @@ select:focus {
   outline: 0;
 }
 
-.title {
+.contact-title {
   font-size: 0.8rem;
   padding: 0 2rem;
   display: flex;
@@ -201,6 +202,24 @@ select:focus {
   backdrop-filter: blur(7.5px);
   border-radius: 1rem;
 }
+
+.skills-gray{
+  text-decoration:  line-through;
+  display: flex;
+  width: 140px;
+  height: 4vh;
+
+  padding: 0.4rem;
+  gap: 0.3rem;
+  margin: 1rem;
+  background: linear-gradient(
+    116.19deg,
+    rgba(240, 241, 241, 0.39) 0.56%,
+    rgba(209, 210, 214, 0.12) 99.66%
+  );
+  backdrop-filter: blur(7.5px);
+  border-radius: 1rem;
+}
 .skills-card img,
 .text-hard {
   display: flex;
@@ -215,6 +234,11 @@ select:focus {
 
 .skills-card p {
   font-size: 0.875rem;
+}
+.skills-gray{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE */
 }
 
 .inputs {
