@@ -31,7 +31,7 @@ Durante o desenvolvimento, foi usado diversar tecnologias como: <br>
 ```bash
 
     // Clonar repositório
-    $ git clone https://github.com/christiand3v/portfolio-christian.git
+    $ git clone https://github.com/christianmjanke/portfolio-christian.git
 
     // Acessar diretório
     $ cd portfolio-christian
@@ -46,7 +46,6 @@ Durante o desenvolvimento, foi usado diversar tecnologias como: <br>
 
 ---
 
-![image](https://i.imgur.com/Bqbbw99.png)
-
+![image](https://i.imgur.com/dJxwSh3.png)
 
 <h4 align="center"> Desenvolvido por Christian Medeiros</h4>

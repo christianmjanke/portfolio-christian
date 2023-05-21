@@ -14,25 +14,6 @@ main {
   background-size: cover;
 }
 
-
-.texto-em-construcao {
-  color: var(--text-color);
-  width: 100%;
-  margin: 1rem 0;
-  font-weight: bold;
-  text-align: center;
-  animation: slide 4s linear infinite;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(80%);
-  }
-}
-
 .picture img {
   width: 15rem;
   border-radius: 50%;
@@ -111,6 +92,7 @@ main {
 .container-skills-and-contact {
   line-height: 2;
 }
+
 textarea:focus,
 input:focus,
 select:focus {
@@ -190,25 +172,23 @@ select:focus {
   display: flex;
   width: 140px;
   height: 4vh;
-
   padding: 0.4rem;
   gap: 0.3rem;
   margin: 1rem;
   background: linear-gradient(
-    116.19deg,
-    rgba(32, 47, 125, 0.48) 0.56%,
-    rgba(180, 188, 231, 0.12) 99.66%
+    100deg,
+    rgba(8, 79, 185, 0.849) 0.56%,
+    rgba(226, 226, 226, 0.144) 99.66%
   );
   backdrop-filter: blur(7.5px);
   border-radius: 1rem;
 }
 
-.skills-gray{
-  text-decoration:  line-through;
+.skills-gray {
+  text-decoration: line-through;
   display: flex;
   width: 140px;
   height: 4vh;
-
   padding: 0.4rem;
   gap: 0.3rem;
   margin: 1rem;
@@ -220,6 +200,7 @@ select:focus {
   backdrop-filter: blur(7.5px);
   border-radius: 1rem;
 }
+
 .skills-card img,
 .text-hard {
   display: flex;
@@ -227,6 +208,7 @@ select:focus {
   align-items: center;
   text-align: center;
 }
+
 .skills-card img {
   width: 35px;
   padding: 0 0.5rem;
@@ -235,7 +217,8 @@ select:focus {
 .skills-card p {
   font-size: 0.875rem;
 }
-.skills-gray{
+
+.skills-gray {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   filter: gray; /* IE */
@@ -258,9 +241,9 @@ select:focus {
 .inputs input[type="text"],
 input[type="email"] {
   background: linear-gradient(
-    116.19deg,
-    rgba(9, 39, 187, 0.48) 0.56%,
-    rgba(180, 188, 231, 0.12) 99.66%
+    100deg,
+    rgba(8, 79, 185, 0.849) 0.56%,
+    rgba(226, 226, 226, 0.144) 99.66%
   );
   backdrop-filter: blur(7.5px);
   border: none;
@@ -275,9 +258,9 @@ input[type="email"] {
 
 textarea {
   background: linear-gradient(
-    116.19deg,
-    rgba(9, 39, 187, 0.48) 0.56%,
-    rgba(180, 188, 231, 0.12) 99.66%
+    100deg,
+    rgba(8, 79, 185, 0.849) 0.56%,
+    rgba(226, 226, 226, 0.144) 99.66%
   );
   backdrop-filter: blur(7.5px);
   border: none;
@@ -292,9 +275,9 @@ textarea {
 
 .inputs button {
   background: linear-gradient(
-    116.19deg,
-    rgba(9, 39, 187, 0.48) 0.56%,
-    rgba(180, 188, 231, 0.12) 99.66%
+    100deg,
+    rgba(8, 79, 185, 0.849) 0.56%,
+    rgba(226, 226, 226, 0.144) 99.66%
   );
   border: none;
   margin: 1rem 0;
