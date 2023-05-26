@@ -1,4 +1,4 @@
-@media (min-width: 770px) {
+@media (min-width: 1112px) {
   body,
   main {
     height: 100vh;
@@ -44,6 +44,7 @@
     width: 80vw;
     flex-wrap: nowrap;
   }
+
   .card-project a {
     width: 80vw;
   }
